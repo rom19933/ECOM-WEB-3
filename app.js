@@ -1,3 +1,5 @@
+//הפעלת פונקציה מתוך ספריית אי אן וי שטוענת את ההגדרות מקובץ דוט אי אן וי
+require('dotenv').config();
 const {router} = require('express');
 // קישור לספריית אקספרס
 const express=require('express');
