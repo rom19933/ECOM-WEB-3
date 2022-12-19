@@ -1,9 +1,8 @@
-// קישור לספריית פרוטוקול עבודה באינטרנט
 const http=require('http');
-// קישור לאפליקציה שכתבנו בקובץ החיצוני
+
 const app=require('./app');
-const port=3000;
-// יצירת אובייקט מסוג שרת אינטרנט
+const port=3030;
+
 const server=http.createServer(app,()=>{console.log("server started")});
-// הפעלת אובייקט השרת כך שיאזין לבקשות בכתובת הפורט שהגדרנו לו
+
 server.listen(port);
